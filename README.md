@@ -4,11 +4,11 @@ It runs a PostgreSQL database in one container and a Python application in anoth
 The Python app connects to the database, runs a few queries, computes basic statistics, and outputs the results.
 
 ## What This Stack Does
-Starts a PostgreSQL database with a pre-seeded `trips` table
-Runs a Python application that connects to the database
-Queries trip data and computes basic statistics
-Prints a JSON summary to the terminal
-Saves the same summary to a file for later use
+- Starts a PostgreSQL database with a pre-seeded `trips` table
+- Runs a Python application that connects to the database
+- Queries trip data and computes basic statistics
+- Prints a JSON summary to the terminal
+- Saves the same summary to a file for later use
 
 ## How to Run the Application
 Make sure Docker Desktop is running on your system.
