@@ -1,2 +1,18 @@
-# assignment1-docker
-Docker multi-container app with Postgres &amp; Python
+# Assignment 1 – Docker Multi-Container App
+This project is a simple two-container Docker application built using Docker Compose.  
+It runs a PostgreSQL database in one container and a Python application in another container.  
+The Python app connects to the database, runs a few queries, computes basic statistics, and outputs the results.
+
+## What This Stack Does
+Starts a PostgreSQL database with a pre-seeded `trips` table
+Runs a Python application that connects to the database
+Queries trip data and computes basic statistics
+Prints a JSON summary to the terminal
+Saves the same summary to a file for later use
+
+## How to Run the Application
+Make sure Docker Desktop is running on your system.
+From the root of the project directory, run:
+
+```bash
+docker compose up --build
