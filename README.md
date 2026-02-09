@@ -41,3 +41,7 @@ docker compose down -v
   ]
 }
 
+## Troubleshooting -
+If the application fails to connect to the database, wait a few seconds and try again.
+Make sure Docker Desktop is running before starting the containers.
+Ensure port 5432 is not already in use on your system.
