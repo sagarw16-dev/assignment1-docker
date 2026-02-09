@@ -16,3 +16,13 @@ From the root of the project directory, run:
 
 ```bash
 docker compose up --build
+
+To stop and remove the containers and volumes, run:
+
+```bash
+docker compose down -v
+
+**## Output**
+The application produces output in two places:
+- A JSON summary printed directly to the terminal
+- A JSON file written to out/summary.json
