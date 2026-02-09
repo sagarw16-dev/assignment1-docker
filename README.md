@@ -22,12 +22,12 @@ To stop and remove the containers and volumes, run:
 ```bash
 docker compose down -v
 
-Output
+## Output
 - The application produces output in two places:
 - A JSON summary printed directly to the terminal
 - A JSON file written to out/summary.json
 
-Example Output-
+## Example Output-
 {
   "total_trips": 6,
   "avg_fare_by_city": [
